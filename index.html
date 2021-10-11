@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Reproductor de música</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="player">
+          <div class="player_controls">
+            <div class="player_btn player_btn--small" id="previous">
+              
+            </div>
+            <h5 class="player_title">playing now</h5>
+            <div class="player_btn player_btn--small" id="icon-menu">
+             
+            </div>
+          </div>
+          <div class="player_album">
+            <img id="cover" src="img/Billie Eilish.jpg" alt="Album Cover" class="player_img" loading="lazy" />
+          </div>
+     
+          <h2 class="player_artist">Bille Eilish</h2>
+          <h3 class="player_song">Bored</h3>
+          <div class="controls">
+            <button id="play-btn">Play</button>
+            <button id="pause-btn">Pause</button>
+        </div>
+     
+          <input type="range" value="20" min="0" class="player_level" id="range" />
+          <div class="audio-duration">
+            <div class="start">00:01</div>
+            <div class="end">02:58</div>
+          </div>
+          <audio id="cancion" src="audio/Billie Eilish - Bored (Audio).mp3"></audio>
+          <script src="js/script.js"></script>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
